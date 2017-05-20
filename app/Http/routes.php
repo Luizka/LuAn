@@ -11,10 +11,11 @@
 |
 */
 
-Route::get('/', 'baseController@getIndex');
-
+Route::get('/', 'BaseController@getIndex');
+Route::get('/Coll', 'CollController@getIndex');
+Route::post('/coll', 'CollController@postIndex');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
 //Дальнейшая строка всегда должна быть последней
-Route::get('{id}', 'StaticControlles@gotIndex');
+Route::get('{id}', 'StaticController@getIndex');

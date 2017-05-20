@@ -1,4 +1,7 @@
 body{
 	background:url('../img/fun.jpg');
-	background-size:100%;
+	background-size:100%; 
+}
+.hrooter{
+	border:solid #234B7F 1px;
 }
