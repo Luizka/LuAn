@@ -14,6 +14,8 @@
 Route::get('/', 'BaseController@getIndex');
 Route::get('/Coll', 'CollController@getIndex');
 Route::post('/coll', 'CollController@postIndex');
+Route::get('/otzivy', 'OtzivController@getIndex');
+Route::post('/otzivy', 'OtzivController@postIndex');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');

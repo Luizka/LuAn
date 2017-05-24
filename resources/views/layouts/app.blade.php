@@ -27,8 +27,9 @@
 <div class="mainblock">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
+		
             <div class="navbar-header">
-
+          <a  href="{{ url('/') }}"> <img src="log.png" style="float:left; margin-top:6px; margin-right:10px; margin-left:-13px;" width="98" height="30" alt="альтернативный текст"></a>
                 <!-- Collapsed Hamburger -->
                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                     <span class="sr-only">Toggle Navigation</span>
@@ -36,7 +37,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
+           
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
                     Главная 
@@ -49,6 +50,9 @@
                 </a>
 				<a class="navbar-brand" href="{{ url('/about') }}">
                     О нас 
+                </a>
+				<a class="navbar-brand" href="{{ url('/otzivy') }}">
+                    Отзывы 
                 </a>
             </div>
 
